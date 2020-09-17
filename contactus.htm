@@ -8,7 +8,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-   
+    <style>
+     body{
+         background-image:url("https://i.ytimg.com/vi/vV6JpyUlLXc/maxresdefault.jpg");
+         size: cover;
+         background-repeat:repeat;
+     }
+    </style>
 </head>
 <body>
     <div class="jumbotron">
@@ -21,17 +27,48 @@
               <ul class="navbar-nav">
                   <li class="nav-item"><a class="nav-link" href="kmitgallary.htm"><img src="http://www.clker.com/cliparts/0/d/H/0/t/i/home-logo-hi.png" width="35" height="35"></a></li>
                   <li class="nav-item"><a class="nav-link" href="aboutus.htm">about us</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">contacters</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#">contact us</a></li>
                   <li class="nav-item"><a class="nav-link" href="reference.htm">reference</a></li>
               </ul>
             </div>
           </nav>
         </div>
         </div>
-    
-        
+        <div>
+     <h1 style="background-color: rgb(253, 216, 121);color: rgb(3, 0, 0);text-shadow:3px 3px gray;"><center>CONTACT US</center> </h1>
+     <div class="container">
+         <div class="row">
+             <div class="col" style="align-items:flex-start;">
+                 <u><br><br><br><br></u>
+                 <img src="http://kmit.in/emagazine/wp-content/uploads/2015/03/331635_423694434339680_203027916_o.jpg" height="350px" width="500px" >
+                 <u><br><br><br><br></u>
+             </div>
+             <div class="col" style="color: honeydew;" ><center>
+                 <form><u><br><br><br></u>
+                   <h2>NAME:</h2><br><input type="text" name="name" placeholder="       User Name.......    "><br>
+                   <h2>PHONE NUMBER:</h2><br><input type="number" name="number" placeholder="      Your Number.......     "><br>
+                   <h2>EMAIL ID:</h2><br><input type="email" name="mail id" placeholder="       Your Mail Id......     "><br>
+                  <h2> MESSAGE:</h2><br><textarea rows="4" cols="40" placeholder="message......"></textarea>
+                   <div style="width: 100px;"><button class="btn btn-class btn-block" onclick="myfunction();" style="color:white;background-color: rgb(255, 0, 0);">SUBMIT</button></div>
+                 </form>
+                 <script>
+                     function myfunction(){
+                         alert('your response is been recorded');
+                         var a,b,c,d;
+                         a=document.getElementById('name').value;
+                         console.log('name is entered:'+a);
+                         b=document.getElementById('number').value;
+                         console.log('number entered:'+b);
+                         c=document.getElementById('email').value;
+                         console.log('mail id entered:'+c);
+                         d=document.getElementById('message').value; 
+                         console.log('message entered:'+d);
+                     }
+                 </script>
+                </center>
+             </div>
+         </div>
      </div>
-     <div style="color:cornflowerblue;"><P>Contact US FOR MORE DETAILS </P>
-     <P>OUR NUMBER : 9*********2</P></div>
+    </div>
 </body>
 </html>
